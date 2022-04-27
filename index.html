@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="shortcut icon" href="./Favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">To<span class="inside_heading">Do</span> App</h1>
+        <div class="form_container">
+
+
+            <div class="form">
+                <span class="For_title">Title: </span> <br>
+                <input type="text" class="input" id="title" placeholder="Enter Title here">
+            </div>
+            <div class="form">
+                <span class="For_title">Description: </span> <br>
+                <textarea class="input textarea" id="desc" cols="30" rows="10" placeholder="Enter Message "></textarea>
+            </div>
+
+            <div class="form">
+                <button class="btn" onclick="addTodo()">Add</button>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------------------------- -->
+        <hr style="width: 65%; margin-top: 5px;" />
+
+        <div class="task" id="task">
+
+            <ul class="task_item" id="task_item">
+
+                <!-- <li class="task_list">
+                    <div class="taskContainer">
+                        <h4 class="title">Default</h4>
+                        <span class="desc"> HELLO This is Default TasK</span>
+
+                        <div class="btns">
+                            <button class="check"><i class="fa-solid fa-circle-check"></i></button>
+                            <span class="date">date</span>
+                            <button class=" check delete"> <i class="fa-solid fa-trash"></i></button>
+
+                        </div>
+                    </div>
+                </li> -->
+
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
